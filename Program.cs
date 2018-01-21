@@ -13,7 +13,7 @@ namespace ConsoleApp29
             Vektor a = new Vektor(1, 2);
             Vektor b = new Vektor(10, 10);
             Vektor c = new Vektor();
-            c = a + b;
+            c = b + 4;
             c.show();
             Console.ReadKey();
         }
